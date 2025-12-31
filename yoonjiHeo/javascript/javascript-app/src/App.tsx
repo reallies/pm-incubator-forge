@@ -7,6 +7,7 @@ import { ControlFlowSwitch } from './control_flow/ControlFlowSwitch'
 import { VariableAndDataTypes } from './data_type/VariableAndDataTypes'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
 import { MapExample } from './map/MapExample'
+import { MapReduceExample } from './map/MapReduceExample'
 import { CalculationExample } from './math_operation/CalculationExample'
 import { Firstproblem } from './problem/Firstproblem'
 import { Secondproblem } from './problem/Secondproblem'
@@ -26,6 +27,7 @@ function App() {
         <ControlFlowForSumExample/>
         <Secondproblem/>
         <MapExample/>
+        <MapReduceExample/>
       </div>
     </>
   )
