@@ -13,7 +13,8 @@ import { SecondProblem } from './problem/SecondProblem'
 import { MapExample } from './map/MapExample'
 import { MapReduceExample } from './map/MapReduceExample'
 import { MapFilterExample } from './map/MapFilterExample' 
-import { ArraySliceExample } from './array/ArraySliceExample' 
+import { ArraySliceExample } from './array/ArraySliceExample'
+import { ArraySpliceExample } from './array/ArraySpliceExample'
 function App() {
 
   return (
@@ -35,6 +36,7 @@ function App() {
         <MapReduceExample />
         <MapFilterExample />
         <ArraySliceExample />
+        <ArraySpliceExample />
 
       </div>
       
